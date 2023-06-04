@@ -6,7 +6,6 @@ on:
     - cron: "0 8 * * 6"
 
 jobs:
-  permissions: write-all
   build:
     runs-on: ubuntu-latest
 
