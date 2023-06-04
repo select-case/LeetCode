@@ -1,4 +1,4 @@
-name: Sync Leetcode
+name: Sync Leetcode Strivers SDE Sheet
 
 on:
   workflow_dispatch:
