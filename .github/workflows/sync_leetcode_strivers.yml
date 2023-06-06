@@ -3,7 +3,7 @@ name: Sync Leetcode Strivers SDE Sheet
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 20 * * *"
+    - cron: "0 0 29 2 1"
 
 jobs:
   build:
