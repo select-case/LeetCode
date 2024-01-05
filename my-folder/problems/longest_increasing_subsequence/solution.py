@@ -7,3 +7,13 @@ class Solution:
                     dp[i] =  max(dp[i],dp[j]+1)
         print(dp)
         return max(dp)
+        # res = []
+        # for x in nums:
+        #     p = bisect_left(res, x)
+        #     print(p,res,x)
+        #     if p >= len(res):
+        #         res.append(x)
+        #     else:
+        #         res[p] = x
+        # print(res)
+        # return len(res)
